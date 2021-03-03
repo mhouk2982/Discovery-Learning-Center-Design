@@ -1,0 +1,291 @@
+
+
+/* Navigation Bar */
+
+.navbar{
+ background-color: #6155a6;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.navbar-light .navbar-brand{
+  color: white;
+
+  text-decoration: none;
+}
+
+/* #carouselExampleIndicators li { visibility: hidden; } */
+
+.carousel-indicators{visibility: hidden; }
+/* Welcome Section */
+
+
+/* Slide 1 Headings and Paragraph*/
+
+.slide1-header1{
+  position: absolute;
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  white-space: nowrap;
+  margin-top: -65%;
+  margin-left: 40%;
+}
+
+.slide1-header2{
+  position: absolute;
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  white-space: nowrap;
+  margin-top: -60%;
+  margin-left: 43%;
+}
+
+.slide1-paragraph{
+  position: absolute;
+  font-size: 2.5rem;
+  color: #312c51;
+  margin-left: 52%;
+  margin-top: -55%;
+}
+
+/* Slide 2 Heading and Paragraph */
+.header2{
+  position: absolute;
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-top: -65%;
+  margin-left: 50%;
+}
+.slide2-paragraph{
+  position: absolute;
+  font-size: 2.5rem;
+  color: white;
+  margin-left: 50%;
+  margin-top: -47%;
+}
+
+/*Student Pictures for Carosel Slides */
+.studentpic2{
+  height: 67rem;
+}
+.studentpic2{
+height: 67rem;
+}
+/* Testimonials */
+
+
+.testimonial-header{
+  padding-bottom: 50px;
+  font-size: 4rem;
+  color: white;
+  font-family: Montserrat, serif;
+  font-weight: lighter;
+  position: relative;
+  text-align: center;
+}
+
+/* About Us Section */
+.about-us{
+  background-color: white;
+  margin-top: -3%;
+}
+.about-title{
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #312c51;
+  font-weight: lighter;
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+}
+.about-info{
+  position: relative;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333333;
+  padding-bottom: 50px;
+}
+
+/* Programs Section */
+
+.program-info{
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+}
+
+.program-header{
+  background-color: #6155a6;
+  /* background-color: #7c9473; */
+}
+
+.program-title{
+  padding-top: 50px;
+  font-size: 4rem;
+  color: white;
+  font-family: Montserrat, serif;
+  font-weight: lighter;
+  position: relative;
+  text-align: center;
+}
+
+.program-paragraph{
+  padding-bottom: 40px;
+}
+
+
+.development-info{
+
+  color: #333333;
+  font-weight: 400;
+
+  padding: 80px 60px;
+}
+
+.card-title{
+  color: #312c51;
+  font-size: 2vw;
+}
+.card-text{
+  color: #333333;
+  font-size: 1vw;
+}
+.bullets{
+  text-align: left;
+}
+
+.card-deck-row2{
+  padding-top: 50px;
+}
+/* Card images */
+.card-img-top{
+  height: 50%;
+}
+
+/* Bottom Contact */
+
+.bottom-contact{
+margin: -30px 0 30px;
+background-color: #6155a6;
+
+}
+.contact-heading{
+
+    padding: 30px 0 20px;
+    font-size: 4rem;
+    color: white;
+    font-family: Montserrat, serif;
+    font-weight: lighter;
+    position: relative;
+    text-align: center;
+
+}
+.contact-form{
+  float: left;
+  margin-left: 2%;
+}
+
+/* Tablet Viewport */
+
+
+
+/* Small Screen Viewport */
+
+@media only screen and (max-width: 985px) {
+
+  .studentpic1{
+    height: 35rem;
+  }
+  .studentpic2{
+    height: 35rem;
+  }
+
+
+  .slide1-header1{
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    margin-top: -61%;
+    margin-left: 36%;
+
+}
+
+.slide1-header2{
+  position: absolute;
+  font-size: 2rem;
+  font-weight: bold;
+color: white;
+  /* white-space: nowrap; */
+  margin-top: -56%;
+  margin-left: 40%;
+}
+
+.slide1-paragraph{
+  visibility: hidden;
+}
+
+.header2{
+  position: absolute;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-top: -61%;
+  margin-left: 50%;
+}
+
+.slide2-paragraph{
+  visibility: hidden;
+}
+
+
+/* About us Section */
+.about-us{
+  background-color: white;
+  margin-top: -12%;
+}
+.about-title{
+  padding-top: 20px;
+  font-size: 8vw;
+}
+.about-info{
+  font-size: 1.5rem;
+  width: auto;
+  padding-left: 10px;
+  margin-left: auto;
+  text-align: left;
+
+}
+
+.development-info{
+  font-size: 1.5rem;
+}
+
+.card-title{
+  font-size: 2.5rem;
+
+}
+.card-text{
+  font-size: 1.5rem;
+
+}
+
+.contact-form{
+  float: left;
+  margin-left: 15%;
+}
+
+
+}
