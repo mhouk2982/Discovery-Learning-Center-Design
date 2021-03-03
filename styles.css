@@ -203,7 +203,7 @@ background-color: #6155a6;
 
 /* Small Screen Viewport */
 
-@media only screen and (max-width: 985px) {
+@media only screen and (max-width: 1300px) {
 
   .studentpic1{
     height: 35rem;
