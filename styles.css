@@ -215,7 +215,7 @@ background-color: #6155a6;
 
   .slide1-header1{
     position: absolute;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: white;
     font-weight: bold;
     margin-top: -61%;
@@ -225,7 +225,7 @@ background-color: #6155a6;
 
 .slide1-header2{
   position: absolute;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
 color: white;
   /* white-space: nowrap; */
